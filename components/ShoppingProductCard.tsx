@@ -12,7 +12,7 @@ export default function ShoppingProductCard() {
 				>
 					<p className='text-lime-600'><Heart size={20} strokeWidth={2.5}/></p>
 				</Button>
-				<Image src='/macbook.png' alt='productPersonalized' width={200} height={200} className='w-auto h-auto' loading='eager' />
+				<Image src='/products/macbook.png' alt='productPersonalized' width={200} height={200} className='w-auto h-auto' loading='eager' />
 				<div className='flex flex-col gap-1 pl-4'>
 					<h1 className='font-semibold'>MacBook Air 13 M3</h1>
 					<p className='text-sm text-muted-foreground'>Apple</p>
@@ -30,7 +30,7 @@ export default function ShoppingProductCard() {
 							<p className='text-sm text-muted-foreground'>(1361)</p>
 						</div>
 						<Button
-							variant='destructive'
+							variant='default'
 							className='absolute bottom-10 right-4 rounded-xl p-3 text-lime-800 bg-lime-100 font-semibold'
 						>
 							<p className='text-lime-600'><ShoppingCart size={22} strokeWidth={2}/></p>

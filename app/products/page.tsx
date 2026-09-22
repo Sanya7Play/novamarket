@@ -11,8 +11,8 @@ export default function ProductsPage(){
 	return (
 		<div className="grid grid-cols-[220px_1fr] gap-5">
 			<div className="flex flex-col gap-5">
-				<div className="flex flex-col gap-1 py-2 border border-gray-300 rounded-md">
-					<header className="flex flex-row justify-between items-center px-3 py-2 border-b border-gray-300	">
+				<div className="flex flex-col gap-1 py-2">
+					<header className="flex flex-row justify-between items-center px-3 py-2">
 						<h2 className='font-semibold px-1'>Категории</h2>
 						<ChevronDown size={18}/>
 					</header>
@@ -35,8 +35,8 @@ export default function ProductsPage(){
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-3 py-2 border border-gray-300 rounded-md">
-					<header className="flex flex-row justify-between items-center px-3 py-2 border-b border-gray-300">
+				<div className="flex flex-col gap-3 py-2">
+					<header className="flex flex-row justify-between items-center px-3 py-2">
 						<h1 className='font-semibold px-1'>Диапазон цены</h1>
 					</header>
 					<div className='flex flex-row justify-between items-center px-3 py-1'>
@@ -51,8 +51,8 @@ export default function ProductsPage(){
 						className="mx-auto w-full max-w-xs px-3 py-4"
 					/>
 				</div>
-				<div className="flex flex-col gap-1 py-2 border border-gray-300 rounded-md">
-					<header className="flex flex-row justify-between items-center px-3 py-2 border-b border-gray-300">
+				<div className="flex flex-col gap-1 py-2">
+					<header className="flex flex-row justify-between items-center px-3 py-2">
 						<h2 className='font-semibold px-1'>Бренд</h2>
 						<ChevronDown size={18}/>
 					</header>
@@ -84,8 +84,8 @@ export default function ProductsPage(){
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-1 py-2 border border-gray-300 rounded-md">
-					<header className="flex flex-row justify-between items-center px-3 py-2 border-b border-gray-300">
+				<div className="flex flex-col gap-1 py-2">
+					<header className="flex flex-row justify-between items-center px-3 py-2">
 						<h2 className='font-semibold px-1'>Рейтинг</h2>
 					</header>
 					<div className="flex flex-col px-2 gap-2">
@@ -107,7 +107,7 @@ export default function ProductsPage(){
 					</div>
 				</div>
 			</div>
-			<div className="px-5 py-5">
+			<div className="px-5 py-2.5">
 				<header className="flex flex-col gap-4">
 					<div className="flex flex-row items-center gap-5">
 						<h1 className='text-3xl font-semibold'>Ноутбуки</h1>
@@ -134,7 +134,6 @@ export default function ProductsPage(){
 								>
 									<X size={16}/>
 								</Button>
-
 							</div>
 							<div className='flex flex-row items-center gap-1 text-xs bg-lime-100 p-2 px-5 rounded-2xl font-bold'>
 								<span className='flex flex-row items-center gap-0.5'>Цена до 1350 <Euro size={12}/></span>
