@@ -5,7 +5,7 @@ export default function BlockCategoryPage() {
 	return (
 		<div className='flex flex-col gap-5'>
 			<h2 className='text-2xl font-semibold'>Поиск по категориям</h2>
-			<div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-5">
+			<div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-5">
 				{categoryBlocks.map((category) => (
 					<div className="flex flex-col gap-4" key={category.id}>
 						<Image

@@ -1,4 +1,4 @@
-import {Heart, Moon, ShoppingCart} from "lucide-react";
+import {Heart, Moon, ShoppingBasket, ShoppingCart} from "lucide-react";
 
 
 export interface ButtonProps {
@@ -42,7 +42,7 @@ export const buttonsHeader = [
 	{
 		id: "2",
 		link: '/cart',
-		icon: ShoppingCart
+		icon: ShoppingBasket
 	},
 	{
 		id: "3",

@@ -7,7 +7,7 @@ export default function SearchAssistant() {
 	return (
 		<div className='flex flex-col gap-4 px-8'>
 			<div className='absolute top-10 z-[-1] right-5 flex p-6'>
-				<Image src='/fon.png' alt='FonAvatar' width={1200} height={1200} className='relative w-auto h-auto' loading='eager' />
+				<Image src='/brand/fon.png' alt='FonAvatar' width={1200} height={1200} className='relative w-auto h-auto' loading='eager' />
 			</div>
 			<div className='flex flex-row items-center gap-3 py-2'>
 				<div className='flex flex-row text-xs bg-lime-300 text-muted-foreground p-1 px-1 rounded-full font-bold'>
