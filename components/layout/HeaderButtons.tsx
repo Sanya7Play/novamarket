@@ -11,7 +11,7 @@ export default function HeaderButtons(){
 
 			<Button
 				variant='secondary'
-				className='bg-lime-50 hover:bg-lime-100'
+				className='bg-lime-100 hover:bg-lime-200'
 				size='lg'
 			>
 				<Switch

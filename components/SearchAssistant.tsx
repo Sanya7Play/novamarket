@@ -15,7 +15,7 @@ export default function SearchAssistant() {
 				</div>
 				<p className='text-lime-600 font-semibold'>Умные рекомендации</p>
 			</div>
-			<h2 className='text-5xl font-bold w-auto'>Покупки,<br/> персонализированные под вас.</h2>
+			<h2 className='text-5xl font-bold w-auto -md:text-xs'>Покупки,<br/> персонализированные под вас.</h2>
 			<p className='text-base w-auto text-muted-foreground'>
 				Откройте для себя товары, подобранные на основе ваших <br/> интересов, привычек и образе жизни.
 			</p>

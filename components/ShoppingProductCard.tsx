@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 export default function ShoppingProductCard() {
 	return (
 		<div className='flex flex-row gap-5 items-center justify-center pb-5'>
-			<div className='relative flex flex-col border border-gray-200 rounded-md py-8 px-4'>
+			<div className='relative flex flex-col border border-gray-300 rounded-md py-8 px-4'>
 				<p className='absolute top-4 left-4 text-sm bg-lime-100 rounded-2xl p-1.5 text-lime-600 font-bold'>-15%</p>
 				<Button
 					variant='destructive'

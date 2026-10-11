@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button";
 
 export default function BlockInformationProduct() {
 	return (
-		<div className='flex flex-col justify-between p-3 w-auto h-full'>
+		<div className='flex flex-col justify-between p-3 w-auto'>
 			<div className='flex flex-row gap-5'>
 				<h1 className='text-muted-foreground'>Apple</h1>
 				<div className='text-xs bg-lime-200 text-lime-600 p-1 px-3 rounded-2xl font-bold'>Бестселлер</div>
@@ -55,7 +55,7 @@ export default function BlockInformationProduct() {
 					<p>Премиум звук</p>
 				</span>
 			</div>
-			<div className='flex flex-col items-center gap-3 py-2'>
+			<div className='flex flex-col items-center gap-3 '>
 				<Button
 					variant='default'
 					className='px-10 py-6 w-full rounded-full bg-lime-400'

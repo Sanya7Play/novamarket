@@ -19,9 +19,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="ru"
       className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white">
+      <body className="min-h-full flex flex-col bg-white px-10">
 	  	<Header/>
-	  	<main className='flex-1 px-10'>{children}</main>
+	  	<main className='flex-1 px-5'>{children}</main>
 	  </body>
     </html>
   );
